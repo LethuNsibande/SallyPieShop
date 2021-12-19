@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lethukuthula Nsiband\\source\\repos\\SallyPieShop\\SallyPieShop\\SallyPieShop.csproj": {}
+    "C:\\Users\\Lethukuthula Nsiband\\Documents\\GitHub\\SallyPieShop\\SallyPieShop\\SallyPieShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lethukuthula Nsiband\\source\\repos\\SallyPieShop\\SallyPieShop\\SallyPieShop.csproj": {
+    "C:\\Users\\Lethukuthula Nsiband\\Documents\\GitHub\\SallyPieShop\\SallyPieShop\\SallyPieShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lethukuthula Nsiband\\source\\repos\\SallyPieShop\\SallyPieShop\\SallyPieShop.csproj",
+        "projectUniqueName": "C:\\Users\\Lethukuthula Nsiband\\Documents\\GitHub\\SallyPieShop\\SallyPieShop\\SallyPieShop.csproj",
         "projectName": "SallyPieShop",
-        "projectPath": "C:\\Users\\Lethukuthula Nsiband\\source\\repos\\SallyPieShop\\SallyPieShop\\SallyPieShop.csproj",
+        "projectPath": "C:\\Users\\Lethukuthula Nsiband\\Documents\\GitHub\\SallyPieShop\\SallyPieShop\\SallyPieShop.csproj",
         "packagesPath": "C:\\Users\\Lethukuthula Nsiband\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lethukuthula Nsiband\\source\\repos\\SallyPieShop\\SallyPieShop\\obj\\",
+        "outputPath": "C:\\Users\\Lethukuthula Nsiband\\Documents\\GitHub\\SallyPieShop\\SallyPieShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
