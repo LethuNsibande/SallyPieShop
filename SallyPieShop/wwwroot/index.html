@@ -1,0 +1,291 @@
+﻿<!DOCTYPE html>
+<!-- Initials and Surname -->
+<!-- Student number -->
+<!-- CSIQ3734 (2021) - Unit 1 -->
+<!-- File name: index.html -->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Custom external style sheet -->
+    <link rel="stylesheet" type="text/css" href="styles/custom.css" />
+    <title>Car Rental - Home</title>
+</head>
+
+<body>
+    <!-- **** Header **** -->
+    <div id="Header">
+
+        <div id="MyNavbar">
+            <ul>
+                <li><a href="#Banner">Home</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Fees">Fees</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Booking">Booking</a></li>
+            </ul>
+        </div>
+    </div> <!-- Header end -->
+    <!-- **** Content **** -->
+    <div id="Content">
+
+        <!-- **** Banner **** -->
+        <div id="Banner">
+            <p>Best Cars</p>
+            <p>Rent a luxury, family or small car <br />at a great price with us!</p>
+            <a href="#Booking">Book now!</a>
+        </div> <!-- Banner end -->
+        <!-- **** Services **** -->
+        <div id="Services">
+            <h2>Fast and reliable delivery services</h2>
+            <h4>that meet your timeline and budget</h4>
+
+            <div>
+                <img src="images/services/vehicles.png" alt="vehicles" />
+                <h5>Vehicles to meet demands</h5>
+                <p>
+                    All our vehicles comes with unlimited kilometers and
+                    roadside assistance across South Africa.
+                </p>
+            </div>
+
+            <div>
+                <img src="images/services/rates.png" alt="rates" />
+                <h5>Great daily and hourly rates</h5>
+                <p>
+                    We have the lowest rental rates round. Don't believe us,
+                    spend a few minutes calling around,
+                    then call us and let's compare.
+                </p>
+            </div>
+
+            <div>
+                <img src="images/services/charges.png" alt="charges" />
+                <h5>No hidden charges</h5>
+                <p>
+                    We do not charge any deposits (for credit card users).
+                    What you see in your reservation
+                    is all you pay. Rental, insurance (if needed) and taxes.
+                </p>
+            </div>
+
+            <div>
+                <img src="images/services/booking.png" alt="booking" />
+                <h5>Real time online booking</h5>
+                <p>
+                    Use our interactive reservation system to get current
+                    reservations confirmed immediately.
+                </p>
+            </div>
+        </div> <!-- Services end -->
+        <!-- **** Fees **** -->
+        <div id="Fees">
+            <h2>Get what you pay for</h2>
+            <ul>
+                <li>
+                    Included in our daily rental fee:
+                    <ul>
+                        <li>Various free kilometres a day</li>
+                        <li>Standard or super collision damage waiver</li>
+                        <li>Standard or super theft loss waiver</li>
+                        <li>Airport surcharge (if applicable)</li>
+                        <li>Tourism levy and VAT (if applicable)</li>
+                    </ul>
+                </li>
+                <li>
+                    Excluded:
+                    <ul>
+                        <li>Contract fee</li>
+                        <li>Fuel</li>
+                        <li>Responsibility amount in event of an accident or theft</li>
+                        <li>Additional driver fee</li>
+                        <li>Delivery and collection</li>
+                        <li>Windscreen and tyre damage waiver</li>
+                        <li>Excess kilometre charges</li>
+                        <li>Any other additional service charges applicable</li>
+                    </ul>
+                </li>
+            </ul>
+            <img src="images/SilverCar.jpg" alt="Silver car" />
+        </div> <!-- Fees end -->
+        <!-- **** About **** -->
+        <div id="About">
+            <h2 id="AboutUs">About Us</h2>
+
+            <img src="images/cars.jpg" alt="cars parked on road" />
+
+            <p>
+                Over four decades, Car Rental has continued to deliver exceptional service of
+                the highest calibre to all its customers. The company has expanded it's offering
+                to include all levels of vehicles.
+            </p>
+
+            <h2 id="Locations">Locations</h2>
+            <p>
+                Car Rental has a large footprint of over 50 locations throughout South Africa.
+                The Car Rental brand promise 'We Try Harder', is not just a catch phrase - it's
+                a personal commitment made by every Car Rental Brand Ambassador.
+            </p>
+
+            <p>
+                <a href="../myindex.html">Return to Index</a>
+            </p>
+
+        </div> <!-- About end -->
+        <!-- **** About **** -->
+        <div id="Booking">
+            <h1>Car Rental Booking</h1>
+            <p>
+                Please use the booking form below to make a car rental reservation.
+                One of our consultants
+                will then contact your to confirm the details of your reservation.
+            </p>
+
+            <!-- Add form markup and text here -->
+            <form method="post" action="">
+                <!--Hidden form elements -->
+                <p>
+                    <input type="hidden" name="recipient" value="booking@carrental.co.za" />
+                    <input type="hidden" name="subject" value="Booking" />
+                    <input type="hidden" name="redirect" value="index.html" />
+                </p>
+
+                <p>
+                    <label>
+                        Name &amp; Surname:
+                        <input type="text" name="name" size="30" />
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        E-mail address:
+                        <input type="text" name="email" size="30" />
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        Postal address:
+                        <textarea name="message" rows="5" cols="30"></textarea>
+                    </label>
+                </p>
+
+                <p>
+                    From which Car Group would you like to rent:<br />
+                    <label>
+                        <input type="radio" name="CarGroup" value="GroupA"
+                               checked="checked" />
+                        Group A (e.g. Hyundai i10)
+                    </label>
+                    <br />
+
+                    <label>
+                        <input type="radio" name="CarGroup" value="GroupB" />
+                        Group B(e.g. VW Polo)
+                    </label>
+                    <br />
+
+                    <label>
+                        <input type="radio" name="CarGroup" value="GroupC" />
+                        Other
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        Pick up date:
+                        <select name="pickup_day">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option selected="selected">29</option>
+                            <option>30</option>
+                            <option>31</option>
+                        </select>
+
+                        <select name="pickup_month">
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option selected="selected">August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+                        </select>
+
+                        <select name="pickup_year">
+                            <option>2018</option>
+                            <option>2019</option>
+                        </select>
+                    </label>
+                </p>
+
+                <p>
+                    <input type="submit" value="Send" />
+                    <input type="reset" value="Clear" />
+                </p>
+            </form>
+        </div> <!-- Booking end -->
+
+    </div> <!-- Content container end -->
+    <!-- **** Footer section **** -->
+    <div id="Footer">
+        <div>
+            Call us now:<br />
+            (051) 401-2754
+        </div>
+        <div>
+            Send us a message:<br />
+            <a href="mailto:info@carrental.co.za">
+                info@carrental.co.za
+            </a>
+        </div>
+        <div>
+            &copy; 2018 Car Rental
+            All rights reserved
+        </div>
+    </div> <!-- Footer end-->
+
+    <script src="lib/jquery/jquery.slim.min.js"></script>
+    <script src="lib/popper.js/popper.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+
